@@ -1,0 +1,83 @@
+/*=========== Common Css Start ===========*/
+body{
+    font-family:'Open Sans', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*=========== Common Css End ===========*/
+
+/*=========== Nav Section Css Start ===========*/
+#primary_nav{
+    background-color: #02918c;
+}
+#primary_nav ul li a{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding:13.5px 25px;
+    display: inline-block;
+
+
+}
+/*=========== Nav Section Css End ===========*/
+
+
+/* =========== Banner Section Css Start =========== */
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./../img/background\ img.jpg);
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    padding:200px 0;
+    color:#ffffff
+}
+#banner h4{
+    font-size:30px;
+    font-weight: 400;
+}
+#banner h1{
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+#banner p{
+    font-size: 18px;
+}
+#banner img{
+    margin: 38px 0;
+}
+#banner a{
+    font-size: 14px;
+    font-weight: 800;
+    color:#0b1016;
+    background-color: #cfc91d;
+    padding: 14px 57px;
+    display: inline-block;
+    transition: all linear .5s;
+}
+/* =========== Banner Section  Css End =========== */
+
+
+/* =========== About Section  Css Start =========== */
+
+#about .section_info h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#02918c;
+}
+#about .section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color:#7e8287;
+}
+/*
+/* =========== Aboutr Section  Css End =========== */
+
+
